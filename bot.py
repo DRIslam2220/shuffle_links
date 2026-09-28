@@ -25,7 +25,7 @@ def load_bot_token():
 
 config = load_config()
 database_url = config["databaseURL"]
-service_account_file = config.get("serviceAccountFile", "coinrush2-7341f-firebase-adminsdk-fbsvc-f985468068.json")
+service_account_file = config.get("serviceAccountFile", "coinrush2-7341f-firebase-adminsdk-fbsvc-86919b0b27.json")
 
 if not firebase_admin._apps:
     cred = credentials.Certificate(service_account_file)
