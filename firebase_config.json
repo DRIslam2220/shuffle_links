@@ -1,0 +1,4 @@
+{
+  "databaseURL": "https://coinrush-1e6d9-default-rtdb.europe-west1.firebasedatabase.app",
+  "serviceAccountFile": "firebase-service-account.example.json"
+}
